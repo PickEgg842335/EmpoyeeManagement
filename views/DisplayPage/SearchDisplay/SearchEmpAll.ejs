@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="./css/DisplayPage/SearchDisplay/SearchEmpallStyle.css">
+<div class="classSearchEmpall">
+    <div class="classSearchEmpallTableDiv">
+        <table class="classSearchEmpallTable" id="idSearchEmpallTable" border='1'>
+            <thead>
+                <tr class="classSearchEmpallthead">
+                    <th>員工編號</th>
+                    <th>姓名</th>
+                    <th>到職日</th>
+                    <th>薪資</th>
+                    <th>部門代號</th>
+                    <th>職稱</th>
+                </tr>
+            </thead>
+            <tbody class="classSearchEmpalltbody" id="idSearchEmpallTabletbody">
+                <% for(let i = 0; i < emps.length; i++) { %>
+                    <tr>
+                        <td><%= emps[i].empno %></td>
+                        <td><%= emps[i].ename %></td>
+                        <td><%= emps[i].hiredate %></td>
+                        <td><%= emps[i].salary %></td>
+                        <td><%= emps[i].deptno %></td>
+                        <td><%= emps[i].title %></td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+    <div class="classSearchEmpallPage">
+        1
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8">
+        <title>homework_EmpSys</title>
+        <link rel="stylesheet" href="./css/EmpSysStyle.css">
+        <script src="./js/DisplayPage/NewEmpTable.js"></script>
+        <script src="./js/DisplayPage/NewEmpResult/NewEmpResult.js"></script>
+        <script src="./js/DisplayPage/EmpSearchPage.js"></script>
+        <script src="./js/DisplayPage/SearchDisplay/EmpSearchAllPage.js"></script>
+        <script src="./js/DisplayPage/SearchDisplay/EmpSearchOnePage.js"></script>
+        <script src="./js/EmpSys.js"></script>
+    </head>
+    <body>
+        <fieldset class="classField1">
+            <div class="classDivTitle">
+                <h2>Employee System</h2>
+            </div>
+            <div class="classDivCenter">
+                <div class="classDiv1CenterL1">
+                    <div class="classDiv11CenterL2" id="idFirstPage">
+                        <label>○首頁</label>
+                    </div>
+                    <div class="classDiv12CenterL2" id="idNewEmpPage">
+                        <label>○新增員工資料</label>
+                    </div>
+                    <div class="classDiv13CenterL2" id="idEmpInfPage">
+                        <label>○查詢員工資料</label>
+                    </div>
+                    <div class="classDiv14CenterL2">
+                    </div>
+                    <div class="classDiv15CenterL2">
+                    </div>
+                    <div class="classDiv16CenterL2">
+                    </div>
+                    <div class="classDiv17CenterL2">
+                    </div>
+                </div>
+                <div class="classDiv2CenterL1" id="idResDisplay">
+                    <% switch(PageIndex) { 
+                        case 0: %>
+                            <%- include('./DisplayPage/FirstPage.ejs') %>
+                        <% break;
+                        case 1: %>
+                            提交成功
+                        <% break;
+                        case 2: %>
+                            提交失敗
+                        <% break;
+                    } %>
+                </div>
+            </div>
+            <div class="classDivBottom">
+                <p>&copy2024 All Rights Reserved</p>
+            </div>
+        </fieldset>
+    </body>
+</html>

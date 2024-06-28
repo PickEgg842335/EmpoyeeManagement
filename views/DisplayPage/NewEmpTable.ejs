@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="./css/DisplayPage/NewEmpTableStyle.css">
+<div class="classDivNewEmp" id="idNewEmp">
+    <table>
+        <caption><h3>新員工資料登錄</h3></caption>
+        <tbody>
+            <tr>
+                <td  class="classInputLabel"><label for="idEmpNo">員工編號:</label></td>
+                <td><input class="classInputEmp" type="number" id="idEmpNo" name="idEmpNo" step="1" min="1000" max="9999" onkeydown="if(event.keyCode==13){return false;}"></td>
+            </tr>
+            <tr>
+                <td  class="classInputLabel"><label for="idEmpName">姓名:</label></td>
+                <td><input class="classInputEmp" type="text" id="idEmpName" name="idEmpName"  onkeydown="if(event.keyCode==13){return false;}"></td>
+            </tr>
+            <tr>
+                <td  class="classInputLabel"><label for="idEmpHireDate">到職日:</label></td>
+                <td><input class="classInputEmp" type="date" id="idEmpHireDate" name="idEmpHireDate"></td>
+            </tr>
+            <tr>
+                <td  class="classInputLabel"><label for="idEmpSalary">薪資:</label></td>
+                <td><input class="classInputEmp" type="number" id="idEmpSalary" name="idEmpSalary" step="1"  min="0" onkeydown="if(event.keyCode==13){return false;}"></td>
+            </tr>
+            <tr>
+                <td class="classInputLabel"><label for="idEmpDepCode">部門代號:</label></td>
+                <td><select class="classInputEmp" id="idEmpDepCode" name="idEmpDepCode">
+                    <option value="0">請選擇</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                    <option value="600">600</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="classInputLabel"><label for="idEmpTitle">職稱:</label></td>
+                <td><select class="classInputEmp" id="idEmpTitle" name="idEmpTitle">
+                    <option value="0">請選擇</option>
+                    <option value="SA_REP">SA_REP</option>
+                    <option value="manager">manager</option>
+                    <option value="senior engineer">senior engineer</option>
+                    <option value="engineer">engineer</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="classInputbtn"><h3><input type="button" id="idInputbtn" value="送出" disabled="true"></h3></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

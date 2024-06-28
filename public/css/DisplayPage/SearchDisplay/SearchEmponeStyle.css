@@ -1,0 +1,17 @@
+.classSearchEmpone{
+    display: flex;
+    justify-content: center;
+}
+
+.classSearchEmponeTab{
+    width:200px;
+}
+
+.classSearchEmponeTab th{
+    text-align : right;
+    background-color:lightpink;
+}
+
+.classSearchEmponeTab td{
+    text-align : left;
+}

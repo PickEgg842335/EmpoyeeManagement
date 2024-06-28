@@ -1,0 +1,23 @@
+.classDivNewEmpResult{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    flex-direction: column;
+}
+
+.classDivNewEmpResultL2{
+    text-align: center;
+}
+
+.classNewEmpResultTab{
+    width:200px;
+}
+
+.classNewEmpResultTab th{
+    text-align : right;
+    background-color:lightpink;
+}
+
+.classNewEmpResultTab td{
+    text-align : left;
+}

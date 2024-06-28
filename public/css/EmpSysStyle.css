@@ -1,0 +1,84 @@
+.classField1{
+    width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(91, 91, 91);
+}
+
+.classDivTitle{
+    border: 2px solid rgb(4, 40, 70);
+    background-color: rgb(4, 40, 70);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.classDivTitle h2{
+    width: 220px;
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 128, 0);
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.classDivCenter{
+    height: 500px;
+    display: flex;
+}
+
+
+.classDiv1CenterL1{
+    width: 20%;
+    background-color: rgb(4, 40, 70);
+    color: white;
+    font-weight: 900;
+}
+
+
+.classDiv1CenterL1 span{
+    line-height: 0em;
+}
+
+
+.classDiv2CenterL1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.classDiv2CenterL1 span{
+    font-weight: 900;
+    line-height: 0em;
+}
+
+.classDivBottom{
+    border: 2px solid rgb(4, 40, 70);
+    background-color: rgb(4, 40, 70);
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.classDivBottom p{
+    line-height: 1em;
+}
+
+
+.classInputLabel{
+    text-align : right;
+}
+
+
+.classInputEmp{
+    width: 100%;
+}
+
+
+.classInputbtn{
+    text-align : center;
+}

@@ -1,0 +1,19 @@
+.classDivEmpSearch{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align : center;
+}
+
+.classDivEmpSearchHead{
+    height: 15%;
+}
+
+.classDivEmpSearchCenter{
+    height: 10%;
+}
+
+.classDivEmpSearchBody{
+    height: 75%;
+}

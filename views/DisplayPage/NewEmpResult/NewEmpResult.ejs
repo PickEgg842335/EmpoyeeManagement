@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="./css/DisplayPage/NewEmpResult/NewEmpResultStyle.css">
+<div class="classDivNewEmpResult">
+    <div class="classDivNewEmpResultL2">
+        <caption><span>新員工資料新增結果：<span style="color:green">成功</span></span></caption>
+        <table class="classNewEmpResultTab" border='1'>
+            <tr>
+                <th>員工編號</th>
+                <td><%= emp.empno %></td>
+            </tr>
+            <tr>
+                <th>姓名</th>
+                <td><%= emp.ename %></td>
+            </tr>
+            <tr>
+                <th>到職日</th>
+                <td><%= emp.hiredate %></td>
+            </tr>
+            <tr>
+                <th>薪資</th>
+                <td><%= emp.salary %></td>
+            </tr>
+            <tr>
+                <th>部門代號</th>
+                <td><%= emp.deptno %></td>
+            </tr>
+            <tr>
+                <th>職稱</th>
+                <td><%= emp.title %></td>
+            </tr>
+        </table>
+        <br>
+        <input type="button" id="idNewEmpResultBackBtn" value="返回新增下一筆資料">
+    </div>
+</div>
+
